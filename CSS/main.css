@@ -1,0 +1,241 @@
+*{   margin: 0;
+  padding: 0;
+          
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* i put the margin and the padding 0 to make the boxes in the page look consistant and i added 
+the background color to the main page as light purple */
+body {
+
+          background-color: rgb(184, 135, 184);
+        }
+        /* for the header which is semi apart of the nav bar i made it light grey and added shadow to it
+        i also added padding to it as to make it look better */
+        
+        /* header{
+          background-color: #d9d9d9;
+          padding-left: 5px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          height: 10vh;
+          display:flex;
+          gap:2%;
+          align-items: center;
+        } */
+        /* header nav {
+          background-color: #d9d9d9;
+          padding: 20px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          height: 6vh;
+        } */
+         /*
+         nav {
+          display: flex;
+          /* gap: 20px; 
+        } */
+
+        /* header img {
+        width:5%;
+        height: 100%;
+        
+        }
+  
+        nav a {
+          color: #a841a6;
+          padding: 10px;
+          transition: background-color 0.3s ease, box-shadow 0.3s ease;
+          border-radius: 3px;
+          text-decoration: none;
+          height: fit-content;
+          justify-content: end;
+
+        }
+       
+        nav a:hover {
+          background-color: #9f9696;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .btns {
+          display: inline-block;
+          text-decoration: none;
+          padding: 0.5% 2%;
+          border-radius: 5px;
+          margin-left: 4%;
+      }
+      .login-btns {
+        background-color: #a841a6;
+        color: #fff;
+        padding: 0.5% 2%;
+        border-radius: 5px;
+        text-decoration: none;
+      } */
+      header {
+        background-color: #d9d9d9;
+        padding-left: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        height: 10vh;
+        display: flex;
+        gap: 5%;
+        align-items: center;
+      }
+    
+      header img {
+        width: 10%;
+        height: 100%;
+      }
+    
+      nav {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+      }
+    
+      nav a {
+        color: #a841a6;
+        padding: 10px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 3px;
+        text-decoration: none;
+        height: fit-content;
+      }
+    
+      nav a:hover {
+        background-color: #9f9696;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+    
+      .btns {
+        margin-left: auto;
+        margin-right: 10px;
+      }
+    
+      .btns a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 6px 20px !important; /* Adjusted padding to make the button larger */
+        border-radius: 5px;
+        background-color:#a841a6;
+        color: white;
+      }
+        
+        /* main {
+          padding: 50px;
+          
+        } */
+        /* in the about section i make it fit so it wouldnt be too big */
+      .about{
+          /* width: 100%; */
+          /* margin-top: 10%; */
+          width : 92vw;
+          margin: auto;
+          height: 60vh;
+          margin: 2% auto;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          /* margin: 20px; */
+          background-image: url('../IMG/mix-race-men-women-customers-in-electronics-market-vector-47047577.jpg');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          color:rgb(87, 15, 88);
+          text-align: center;
+          font-size: larger;
+          font-weight: 600;
+          background-color: #dcd5de30;
+          /* filter: blur(1px); */
+
+          
+          
+        }
+
+      .about .text {
+        width : 92vw;
+        height:60vh ;
+
+          background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  /* padding: 20px; */
+  text-align: center;
+
+        }
+        .text h2{
+          margin-top: 5%;
+        }
+        /* the container is the parent to where id but the columns in */
+        .container {
+          display: flex;
+          justify-content: space-evenly;
+          margin: 20px auto;
+          width: 65%;
+          height: 70vh;
+          background-color: rgb(255, 255, 255);
+          border-radius: 4px;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+          margin-top: 20px;
+        }
+        
+        .column {
+          width: 100%;
+          padding: 20px;
+          background-color: #ffffff;
+          border-radius: 4px;
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+          margin-top: 60px;
+        }
+        
+        .column h2 {
+          color: #a841a6;
+        }
+        
+        .column h4 {
+          color: #333333;
+        }
+        
+        .column ul {
+          margin-top: 10px;
+          padding-left: 20px;
+        }
+        
+        .column li {
+          margin-bottom: 5px;
+        }
+        
+        button.sign-up {
+          background-color: rgb(181, 77, 189);
+          color: #ffffff;
+          border-radius: 4px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 45px;
+          width: 100%;
+          font-size: medium;
+          border: none;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+        a button{
+          text-decoration: none;
+        }
+        
+        button.sign-up:hover {
+          background-color: rgb(156, 52, 164);
+        }
+        
+        
+        
+        footer {
+          background-color: #f2f2f2;
+          padding: 20px;
+          text-align: center;
+        }
+        
+      

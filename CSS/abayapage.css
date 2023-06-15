@@ -1,0 +1,177 @@
+*{
+          margin:0;
+          padding:0;
+          box-sizing: border-box;
+      }
+      body{
+        background-color:rgb(184, 135, 184)
+      }
+      
+      .box-cards{
+          display: flex;
+          flex-direction: row;
+          gap:3%;
+          justify-content: center;
+          margin-top: 4%;
+      }
+      .card{
+          text-align: center;
+          width: 19vw;
+      
+          border: 1px solid rgba(184, 180, 180, 0.2);
+          border-radius: 2px;
+          background-color: #e8d3ef;
+      }
+
+      .card img{
+          width:70%;
+          transition: ease-out 0.9;
+      
+      }
+      
+      .card img:hover{
+          transform: scale(1.07);
+      }
+      
+      .card:hover{
+          box-shadow:
+          2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+          6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+          12.5px 12.5px 10px rgba(0, 0, 0, 0.035);
+      }
+      /* <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>card1</title>
+          <link rel="stylesheet" href="../css/style.css">
+      
+      </head>
+      <body>
+      
+          <section class="box-cards">
+      
+      
+              <div class="card">
+                  <img src="../8f56e4d0-a3b0-40a7-a117-9ba04dd24f2d.jpg">
+                  <h3>
+                    489.sr
+                  </h3>
+              </div>
+      
+              <div class="card">
+                  <img src="../d42d560e-424f-4bf0-9483-d8dc29bb74e8.jpg">
+                  <h3>
+                      387.sr
+                  </h3>
+              </div>
+      
+              <div class="card">
+                  <img src="../c1a053c4-31f4-47ce-ae63-80056eaae206.jpg">
+                  <h3>
+                      455.sr
+                  </h3>
+              </div>
+      
+              <div class="card">
+                  <img src="../dc051618-cea8-41f6-974c-8d25088db4c2.jpg">
+                  <h3>
+                      323.sr
+                  </h3>
+              </div>
+          </section>
+      <section class="box-cards">
+      
+      
+              <div class="card">
+                  <img src="../83bbc681-8395-4f1e-ab0b-9d1a65e65675.jpg">
+                  <h3>
+                      430.sr
+                  </h3>
+              </div>
+      
+              <div class="card">
+                  <img src="../0159fb2a-b596-498e-b2b6-7aaa5a447a6f.jpg">
+                  <h3>
+                      320.sr
+                  </h3>
+              </div>
+      
+              <div class="card">
+                  <img src="../359984ff-3d42-4882-b511-2db3ae4ee424.jpg">
+                  <h3>
+                      320.sr
+                  </h3>
+              </div>
+      
+              <div class="card">
+                  <img src="../d241391b-9b54-4c6e-a2ba-ec5b244a7cb8.jpg">
+                  <h3>
+                      299.sr
+                  </h3>
+              </div>
+          </section>
+      
+          <section class="box-cards">
+      
+      
+              <div class="card">
+                  <img src="../bc2c639f-a9ce-48ab-9888-7dbd97fc140f.jpg">
+                  <h3>
+                      320.sr
+                  </h3>
+      
+              </div>
+      
+              <div class="card">
+                  <img src="../e99d3201-898f-4b42-827b-077a54ad741b.jpg">
+                  <h3>
+                      410.sr
+                  </h3>
+              </div>
+      
+              <div class="card">
+                  <img src="../ebb12e30-8e2e-4c6f-b17e-c9b0f8616b09.jpg">
+                  <h3>
+                      300.sr
+                  </h3>
+              </div>
+      
+              <div class="card">
+                  <img src="../cac573ac-fba0-413c-bd3a-eb228aef95a4.jpg">
+                  <h3>
+                      420.sr
+                  </h3>
+              </div>
+          </section>
+      .box-cards{
+          display:flex;
+          gap:3%;
+          padding: 2%;
+      
+      }
+      
+      .card{
+          text-align: center;
+          width:19vw;
+          border: 1px solid rgba(184, 180, 180,0.2);
+          border-radius: 2px;
+          padding: 2%;
+      }
+      .card img{
+          width:70%;
+          transition: ease-out 0.9;
+      }
+      
+      .card img:hover{
+          transform: scale(1.07);
+      }
+      
+      .card:hover{
+          box-shadow:
+          2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+          6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+          12.5px 12.5px 10px rgba(0, 0, 0, 0.035);
+          } */
